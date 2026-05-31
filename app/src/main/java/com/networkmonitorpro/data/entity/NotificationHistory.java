@@ -1,0 +1,1 @@
+package com.networkmonitorpro.data.entity; import androidx.room.*; @Entity public class NotificationHistory{ @PrimaryKey(autoGenerate=true) public long id; public String type,title,message; public long timestamp; public NotificationHistory(String type,String title,String message,long timestamp){this.type=type;this.title=title;this.message=message;this.timestamp=timestamp;} }
